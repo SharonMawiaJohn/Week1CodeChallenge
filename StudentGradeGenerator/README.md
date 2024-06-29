@@ -14,10 +14,8 @@ Write a function that prompts the user to input student marks. The input should 
 
 Methods used: 
 There are no installations done on this assignment. Only a few methods have been used here.
-One of the methods is `parseFloat()` which has been used in cnverting the a string to a floating number, under a variable marks.
-`prompt()` has also been used in pausing the question on the marks that the student scored. This will ask the user to enter marks, so that the grade can show. 
-`isNaN()` method has also been used to check if the number entred is a Not a Number value or not.
-`alert()` methoid ha also been used in displaying an alert box with a message and an OK button. It enables the information to come through to the user.
+`prompt()` has been used in pausing the question on the marks that the student scored. This will ask the user to enter marks, so that the grade can show. 
+`alert()` methoid has also been used in displaying an alert box with a message and an OK button. It enables the information to come through to the user.
 
 Credits:
 Solutions Authored by Sharon Mawia John.
