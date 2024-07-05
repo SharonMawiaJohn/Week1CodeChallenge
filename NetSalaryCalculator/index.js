@@ -1,6 +1,5 @@
-// Function to calculate PAYE (Tax) based on the given rates and taxable income
+// Function to calculate PAYE (Tax)
 function calculatePAYE(annualTaxablePay) {
-    // PAYE rates effective from 1 July 2023
     const payeRates = [
         { min: 0, max: 288000, rate: 0.1 },
         { min: 288001, max: 388000, rate: 0.25 },
@@ -83,7 +82,7 @@ function calculateNSSF(pensionablePay) {
         nssfTierIIDeduction = (pensionablePay - tierIIMin) * tierIIRate;
     }
 
-    // Total NSSF deduction
+    // Accumulative NSSF deduction
     const nssfDeduction = nssfTierIDeduction + nssfTierIIDeduction;
     return nssfDeduction;
 }
